@@ -17,15 +17,4 @@ public class User {
 	public int getEta() {
 		return this.eta;
 	}
-
-	public void setEta(int eta) {
-		this.eta = eta;
-	}
-	
-	public String getName() {
-		return this.name;
-	}
-	public String getSurname() {
-		return this.surname;
-	}
 }

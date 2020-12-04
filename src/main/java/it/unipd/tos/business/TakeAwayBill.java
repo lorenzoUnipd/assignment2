@@ -9,6 +9,5 @@ import it.unipd.tos.business.model.User;
 
 public interface TakeAwayBill {
 	  double getOrderPrice(List<MenuItem> itemsOrdered, User user) throws TakeAwayBillException;
-	  boolean gift(List<OrderItem> orders) throws TakeAwayBillException;
-
+	  List<OrderItem> gift(List<OrderItem> orders, boolean gifting) throws TakeAwayBillException;
 }

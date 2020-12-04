@@ -5,19 +5,36 @@
     <module name="Header">
         <property name="header" 
 			value="////////////////////////////////////////////////////////////////////\n// [LORENZO] [PERINELLO] [1193553]\n////////////////////////////////////////////////////////////////////" />
+        <property name="fileExtensions" value="java" />
     </module>
+    
     <module name="FileLength"/>
+
     <module name="FileTabCharacter"/>
+
+    <module name="FileTabCharacter"/>
+
     <module name="TreeWalker">
-        <module name="NeedBraces"/>
-        <module name="IllegalImport"/>
-        <module name="AvoidStarImport"/>
-        <module name="MethodLength"/>
+
+        <module name="BooleanExpressionComplexity" />
+
+        <module name="CyclomaticComplexity" />
+
         <module name="LineLength">
-			<property name="max" value="120"/>
-		</module>
-        <module name="BooleanExpressionComplexity"/>
-        <module name="CyclomaticComplexity"/>
-        <module name="EmptyCatchBlock" />
+            <property name="max" value="300"/>
+        </module>
+
+        <module name="MethodLength">
+            <property name="max" value="300"/>
+        </module>
+
+        <module name="EmptyCatchBlock"/>
+
+        <module name="AvoidStarImport" />
+
+        <module name="IllegalImport" />
+
+        <module name="NeedBraces" />
+
     </module>
 </module>

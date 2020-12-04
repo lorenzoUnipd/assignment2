@@ -1,0 +1,23 @@
+
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN" "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <module name="Header">
+        <property name="header" 
+			value="////////////////////////////////////////////////////////////////////\n// [LORENZO] [PERINELLO] [1193553]\n////////////////////////////////////////////////////////////////////" />
+    </module>
+    <module name="FileLength"/>
+    <module name="FileTabCharacter"/>
+    <module name="TreeWalker">
+        <module name="NeedBraces"/>
+        <module name="IllegalImport"/>
+        <module name="AvoidStarImport"/>
+        <module name="MethodLength"/>
+        <module name="LineLength">
+			<property name="max" value="120"/>
+		</module>
+        <module name="BooleanExpressionComplexity"/>
+        <module name="CyclomaticComplexity"/>
+        <module name="EmptyCatchBlock" />
+    </module>
+</module>

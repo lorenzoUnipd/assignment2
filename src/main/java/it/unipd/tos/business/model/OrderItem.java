@@ -4,7 +4,6 @@
 package it.unipd.tos.business.model;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 public class OrderItem {
@@ -25,31 +24,18 @@ public class OrderItem {
         return order;
     }
 
-    public void setOrder(List<MenuItem> order) {
-        this.order = order;
-    }
-
     public User getUser() {
         return user;
     }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
 
     public Calendar getDate() {
         return date;
     }
 
-    public void setDate(Calendar date) {
-        this.date = date;
-    }
 
     public double getAmount() {
         return amount;
     }
 
-    public void setAmount(double amount) {
-        this.amount = amount;
-    }
 }

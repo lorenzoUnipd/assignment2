@@ -62,7 +62,7 @@
         <version>4.3.0</version>
         
         <configuration>
-          <repoToken>OyYGlqaitn12uALMTu1JsOeyq3zYDToAh</repoToken>
+          <repoToken></repoToken>
         </configuration>
         <dependencies>
           <dependency>
